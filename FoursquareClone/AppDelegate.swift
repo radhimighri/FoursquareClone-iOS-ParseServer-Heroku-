@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // configuration of using Parse code in Heroku
         let parseConfig = ParseClientConfiguration { (ParseMutableClientConfiguration) in
             // accessing Heroku App via ID & Key
-            ParseMutableClientConfiguration.applicationId = "keepintouchID2sd1skldslmjkopejnfgdgfd"
-            ParseMutableClientConfiguration.clientKey = "keepintouchKey1231238lsjfsdZlmkf654smnsfsd21s"
-            ParseMutableClientConfiguration.server = "http://keepintouch.herokuapp.com/parse"
+            ParseMutableClientConfiguration.applicationId = "YOUR_APP_ID"
+            ParseMutableClientConfiguration.clientKey = "YOUR_CLIENT_KEY"
+            ParseMutableClientConfiguration.server = "YOUR_APP_Server_URL"
         }
         
         Parse.initialize(with: parseConfig)
